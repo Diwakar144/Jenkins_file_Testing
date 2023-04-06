@@ -21,5 +21,10 @@ pipeline {
                 echo "Deployment is successfully completed"
             }
         }
+        stage("End") {
+            steps{
+                echo "process is successfully completed"
+            }
+        }
     }
 }
